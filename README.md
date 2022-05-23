@@ -1,4 +1,4 @@
-# Tiangong Landing
+# TiangongCN Landing
 
 Landing page of Tiangong Initiative
 

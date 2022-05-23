@@ -23,6 +23,7 @@ services:
     restart: always
     depends_on:
       - landing
+      - landing-cn
     image: nginxproxy/nginx-proxy
     container_name: nginx-proxy
     ports:

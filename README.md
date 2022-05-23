@@ -1,4 +1,4 @@
-# TiangongCN Landing
+# Tiangong Landing CN [![Build](https://github.com/linancn/TiangongLandingCN/actions/workflows/build.yml/badge.svg)](https://github.com/linancn/TiangongLandingCN/actions/workflows/build.yml) [![Docker Publish](https://github.com/linancn/TiangongLandingCN/actions/workflows/publish.yml/badge.svg)](https://github.com/linancn/TiangongLandingCN/actions/workflows/publish.yml)
 
 Landing page of Tiangong Initiative
 

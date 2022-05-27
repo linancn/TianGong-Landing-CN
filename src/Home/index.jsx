@@ -15,7 +15,7 @@ import {
   Banner31DataSource,
   Banner32DataSource,
   Banner50DataSource,
-  Banner51DataSource,
+  Banner53DataSource,
   Banner52DataSource,
   Content121DataSource,
   Footer10DataSource,
@@ -41,7 +41,7 @@ export default class Home extends React.Component {
   componentDidMount() {
     /* 如果不是 dva 2.0 请使用以下代码
     // 实现整屏滚动
-    scrollScreen.init({ location: ['Banner3_0', 'Banner3_1', 'Banner3_2', 'Banner5_0', 'Banner5_1', 'Banner5_2', 'Content12_1', 'Footer1_0'] });
+    scrollScreen.init({ location: ['Banner3_0', 'Banner3_1', 'Banner3_2', 'Banner5_0', 'Banner5_3', 'Banner5_2', 'Content12_1', 'Footer1_0'] });
     */
     // 适配手机屏幕;
     enquireScreen((b) => {
@@ -62,7 +62,7 @@ export default class Home extends React.Component {
             'Banner3_1',
             'Banner3_2',
             'Banner5_0',
-            'Banner5_1',
+            'Banner5_3',
             'Banner5_2',
             'Content12_1',
             'Footer1_0',
@@ -106,9 +106,9 @@ export default class Home extends React.Component {
         isMobile={this.state.isMobile}
       />,
       <Banner5
-        id="Banner5_1"
-        key="Banner5_1"
-        dataSource={Banner51DataSource}
+        id="Banner5_3"
+        key="Banner5_3"
+        dataSource={Banner53DataSource}
         isMobile={this.state.isMobile}
       />,
       <Banner5

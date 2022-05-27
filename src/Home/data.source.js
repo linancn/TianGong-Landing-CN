@@ -61,7 +61,32 @@ export const Nav00DataSource = {
             {
               children: (
                 <span>
-                  <p>English</p>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <p>
+                                      <a
+                                        href="https://www.tiangong.earth"
+                                        target="_blank"
+                                      >
+                                        English
+                                      </a>
+                                    </p>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
               name: 'text',
@@ -77,7 +102,7 @@ export const Nav00DataSource = {
 export const Banner30DataSource = {
   wrapper: { className: 'banner3 l3mx5pst68n-editor_css' },
   textWrapper: {
-    className: 'banner3-text-wrapper',
+    className: 'banner3-text-wrapper l3nwhklcc7t-editor_css',
     children: [
       {
         name: 'nameEn',
@@ -109,11 +134,11 @@ export const Banner30DataSource = {
 export const Banner31DataSource = {
   wrapper: { className: 'banner3 l3n0habh5y7-editor_css' },
   textWrapper: {
-    className: 'banner3-text-wrapper',
+    className: 'banner3-text-wrapper l3n0hfo3em7-editor_css',
     children: [
       {
         name: 'slogan',
-        className: 'banner3-slogan',
+        className: 'banner3-slogan l3n0hgebmy-editor_css',
         children: '我们面临',
         texty: true,
       },
@@ -150,15 +175,25 @@ export const Banner32DataSource = {
         children: (
           <span>
             <span>
-              <p>应用”摇篮到坟墓“的产品环境影响评价方法</p>
-              <p>——生命周期评价（Life Cycle Assessment, LCA）</p>
-              <p>
-                从过程、技术、行业多维度，从企业、园区、区域、国家、全球多尺度
-              </p>
-              <p>通过系统表征产品环境负荷，引导产品研发、生产制造等经济活动</p>
-              <p>
-                从本质上推动社会经济系统环境影响降低，从根本上解决人类世环境问题
-              </p>
+              <span>
+                <span>
+                  <span>
+                    <p>应用”摇篮到坟墓“的产品环境影响评价方法</p>
+                    <p>——生命周期评价（Life Cycle Assessment, LCA）</p>
+                    <p>
+                      从过程、技术、行业多维度，<span>
+                        从企业、园区、区域、国家、全球多尺度
+                      </span>
+                    </p>
+                    <p>
+                      通过系统表征产品环境负荷，引导产品研发、生产制造等经济活动
+                    </p>
+                    <p>
+                      从本质上推动社会经济系统环境影响降低，从根本上解决人类世环境问题
+                    </p>
+                  </span>
+                </span>
+              </span>
             </span>
           </span>
         ),
@@ -212,7 +247,9 @@ export const Banner50DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>全面覆盖、完整及时、科学有效、完全开放</p>
+                      <span>
+                        <p>全面覆盖、完整及时、科学有效、完全开放</p>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -297,7 +334,9 @@ export const Banner50DataSource = {
           children: (
             <span>
               <span>
-                <p>了解详情</p>
+                <span>
+                  <p>了解详情</p>
+                </span>
               </span>
             </span>
           ),
@@ -311,8 +350,8 @@ export const Banner50DataSource = {
       'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
   },
 };
-export const Banner51DataSource = {
-  wrapper: { className: 'home-page-wrapper banner5 l3myd3tn0d-editor_css' },
+export const Banner53DataSource = {
+  wrapper: { className: 'home-page-wrapper banner5 l3nvt8shr5-editor_css' },
   page: { className: 'home-page banner5-page' },
   childWrapper: {
     className: 'banner5-title-wrapper',
@@ -321,23 +360,15 @@ export const Banner51DataSource = {
         name: 'title',
         children: (
           <span>
-            <span>
-              <span>
-                <span>
-                  <span>
-                    <p>我们计划开发</p>
-                    <p>天工LCA软件</p>
-                  </span>
-                </span>
-              </span>
-            </span>
+            <p>我们计划开发</p>
+            <p>天工LCA软件</p>
           </span>
         ),
-        className: 'banner5-title l3mydao04qk-editor_css',
+        className: 'banner5-title l3nvtis6m26-editor_css',
       },
       {
         name: 'explain',
-        className: 'banner5-explain l3mydno468c-editor_css',
+        className: 'banner5-explain l3nvtkmssn6-editor_css',
         children: (
           <span>
             <p>100%开源、免费、持续迭代</p>
@@ -346,51 +377,27 @@ export const Banner51DataSource = {
       },
       {
         name: 'content',
-        className: 'banner5-content l3mye4axmd9-editor_css',
+        className: 'banner5-content l3nvtmhbj7-editor_css',
         children: (
           <span>
-            <span>
-              <span>
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <span>
-                          <span>
-                            <span>
-                              <span>
-                                <span>
-                                  <p>前沿技术架构：保持长期持续的成长活力</p>
-                                  <p>协作式开发：可访问、可扩展、可复用</p>
-                                  <p>跨平台：Windows/macOS/Linux</p>
-                                  <p>跨终端：PC/Tablet/Browser</p>
-                                  <p>多语言：中文/English/Japanese/...</p>
-                                </span>
-                              </span>
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </span>
+            <p>前沿技术架构：保持长期持续的成长活力</p>
+            <p>协作式开发：可访问、可扩展、可复用</p>
+            <p>跨平台：Windows/macOS/Linux</p>
+            <p>跨终端：PC/Tablet/Browser</p>
+            <p>多语言：中文/English/Japanese/...</p>
           </span>
         ),
       },
       {
         name: 'button',
-        className: 'banner5-button-wrapper l3mzyd8gjfl-editor_css',
+        className: 'banner5-button-wrapper',
         children: {
           href: '#',
           className: 'banner5-button',
           type: 'primary',
           children: (
             <span>
-              <span>
-                <p>了解详情</p>
-              </span>
+              <p>了解详情</p>
             </span>
           ),
         },
@@ -569,7 +576,7 @@ export const Content121DataSource = {
         },
       },
       {
-        name: 'block~l3ladgthz1u',
+        name: 'block~l3nvba0uh3q',
         className: 'block',
         md: 8,
         xs: 24,
@@ -578,6 +585,7 @@ export const Content121DataSource = {
           img: {
             children:
               'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/Others/fudan2.png',
+            className: 'l3n0euwrws7-editor_css',
           },
         },
       },
@@ -588,7 +596,11 @@ export const Footer10DataSource = {
   wrapper: {
     className: 'home-page-wrapper footer1-wrapper l3mih0nq38-editor_css',
   },
-  OverPack: { className: 'footer1 l3l9sv8n9q-editor_css', playScale: 0.2 },
+  OverPack: {
+    className: 'footer1 l3l9sv8n9q-editor_css',
+    playScale: 0.2,
+    always: false,
+  },
   block: {
     className: 'home-page l3l9os4j5ah-editor_css',
     gutter: 0,

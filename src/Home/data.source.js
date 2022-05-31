@@ -5,10 +5,10 @@ export const Nav00DataSource = {
   logo: {
     className: 'header0-logo l3l3eciw8v9-editor_css',
     children:
-      'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/logo/23.png',
+      'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%A4%A9%E5%B7%A5%E4%B8%AD%E6%96%87-%E5%8F%8D%E7%99%BD.svg',
   },
   Menu: {
-    className: 'header0-menu',
+    className: 'header0-menu l3pr66b6au-editor_css',
     children: [
       {
         name: 'item1',
@@ -22,13 +22,16 @@ export const Nav00DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p>下载</p>
+                        <span>
+                          <p>下载</p>
+                        </span>
                       </span>
                     </span>
                   </span>
                 </span>
               ),
               name: 'text',
+              className: 'l3pu5csulxg-editor_css',
             },
           ],
         },
@@ -48,6 +51,7 @@ export const Nav00DataSource = {
                 </span>
               ),
               name: 'text',
+              className: 'l3pu5mtfh1u-editor_css',
             },
           ],
         },
@@ -70,14 +74,24 @@ export const Nav00DataSource = {
                               <span>
                                 <span>
                                   <span>
-                                    <p>
-                                      <a
-                                        href="https://www.tiangong.earth"
-                                        target="_blank"
-                                      >
-                                        English
-                                      </a>
-                                    </p>
+                                    <span>
+                                      <span>
+                                        <span>
+                                          <span>
+                                            <span>
+                                              <p>
+                                                <a
+                                                  href="https://www.tiangong.earth"
+                                                  target="_blank"
+                                                >
+                                                  English
+                                                </a>
+                                              </p>
+                                            </span>
+                                          </span>
+                                        </span>
+                                      </span>
+                                    </span>
                                   </span>
                                 </span>
                               </span>
@@ -99,243 +113,41 @@ export const Nav00DataSource = {
   },
   mobileMenu: { className: 'header0-mobile-menu' },
 };
-export const Banner30DataSource = {
-  wrapper: { className: 'banner3 l3mx5pst68n-editor_css' },
-  textWrapper: {
-    className: 'banner3-text-wrapper l3nwhklcc7t-editor_css',
+export const Banner10DataSource = {
+  wrapper: { className: 'banner1 l3o6uwbkkaa-editor_css' },
+  BannerAnim: {
     children: [
       {
-        name: 'nameEn',
-        className: 'banner3-name-en l3mx5hc2tn-editor_css',
-        children: (
-          <span>
-            <p>TianGong Initiative</p>
-          </span>
-        ),
-      },
-      {
-        name: 'slogan',
-        className: 'banner3-slogan',
-        children: '天工计划',
-        texty: true,
-      },
-      {
-        name: 'name',
-        className: 'banner3-name',
-        children: (
-          <span>
-            <p>打造共享、共建、共治的生命周期评价数据、软件、知识生态系统</p>
-          </span>
-        ),
-      },
-    ],
-  },
-};
-export const Banner31DataSource = {
-  wrapper: { className: 'banner3 l3n0habh5y7-editor_css' },
-  textWrapper: {
-    className: 'banner3-text-wrapper l3n0hfo3em7-editor_css',
-    children: [
-      {
-        name: 'slogan',
-        className: 'banner3-slogan l3n0hgebmy-editor_css',
-        children: '我们面临',
-        texty: true,
-      },
-      {
-        name: 'name',
-        className: 'banner3-name',
-        children: (
-          <span>
-            <span>
-              <p>多样且复杂、广泛而深远的环境问题</p>
-              <p>但由于环境-经济-社会系统高度关联</p>
-              <p>结果修复补救和单点调整难以实现系统整体优化</p>
-            </span>
-          </span>
-        ),
-      },
-    ],
-  },
-};
-export const Banner32DataSource = {
-  wrapper: { className: 'banner3 l3n0iuyans-editor_css' },
-  textWrapper: {
-    className: 'banner3-text-wrapper',
-    children: [
-      {
-        name: 'slogan',
-        className: 'banner3-slogan',
-        children: '我们希望',
-        texty: true,
-      },
-      {
-        name: 'name',
-        className: 'banner3-name',
-        children: (
-          <span>
+        name: 'elem0',
+        BannerElement: { className: 'banner-user-elem l3o6t68teu-editor_css' },
+        textWrapper: { className: 'banner1-text-wrapper' },
+        bg: { className: 'bg0 bg l3o6t2d3wzh-editor_css' },
+        title: {
+          className: 'banner1-title l3o6yg9k1p-editor_css',
+          children:
+            'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%A4%A9%E5%B7%A5%E7%AB%96%E5%9B%BE-%E5%8F%8D%E7%99%BD%E7%B4%AB.svg',
+        },
+        content: {
+          className: 'banner1-content l3o6yhclb1q-editor_css',
+          children: (
             <span>
               <span>
-                <span>
-                  <span>
-                    <p>应用”摇篮到坟墓“的产品环境影响评价方法</p>
-                    <p>——生命周期评价（Life Cycle Assessment, LCA）</p>
-                    <p>
-                      从过程、技术、行业多维度，<span>
-                        从企业、园区、区域、国家、全球多尺度
-                      </span>
-                    </p>
-                    <p>
-                      通过系统表征产品环境负荷，引导产品研发、生产制造等经济活动
-                    </p>
-                    <p>
-                      从本质上推动社会经济系统环境影响降低，从根本上解决人类世环境问题
-                    </p>
-                  </span>
-                </span>
+                <p>共享、共建、共治的生命周期评价数据、软件和知识生态系统</p>
               </span>
             </span>
-          </span>
-        ),
-      },
-    ],
-  },
-};
-export const Banner50DataSource = {
-  wrapper: { className: 'home-page-wrapper banner5 l3mwnceddt-editor_css' },
-  page: { className: 'home-page banner5-page' },
-  childWrapper: {
-    className: 'banner5-title-wrapper l3mx1hzev3-editor_css',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-            <span>
-              <span>
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <span>
-                          <span>
-                            <span>
-                              <p>我们计划建立</p>
-                              <p>
-                                <span>天工LCA数据库</span>
-                              </p>
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </span>
-          </span>
-        ),
-        className: 'banner5-title l3mxtpl2vd-editor_css',
-      },
-      {
-        name: 'explain',
-        className: 'banner5-explain l3mwmu2qoyl-editor_css',
-        children: (
-          <span>
-            <span>
-              <span>
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <p>全面覆盖、完整及时、科学有效、完全开放</p>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </span>
-          </span>
-        ),
-      },
-      {
-        name: 'content',
-        className: 'banner5-content l3mxjchmdtp-editor_css',
-        children: (
-          <span>
-            <span>
-              <span>
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <span>
-                          <span>
-                            <span>
-                              <span>
-                                <span>
-                                  <span>
-                                    <span>
-                                      <span>
-                                        <span>
-                                          <span>
-                                            <span>
-                                              <span>
-                                                <span>
-                                                  <span>
-                                                    <span>
-                                                      <p>
-                                                        <span>
-                                                          基于统一的LCA数据知识模型，自动汇聚覆盖全行业单元过程的全球公开数据
-                                                        </span>
-                                                      </p>
-                                                      <p>
-                                                        <span>
-                                                          基于数据同行评议机制，欢迎所有科学有效的LCA数据对接并集成于数据库
-                                                        </span>
-                                                      </p>
-                                                      <p>
-                                                        免费使用、再利用和再分发
-                                                      </p>
-                                                      <p>
-                                                        关注中国，面向全球<br />
-                                                      </p>
-                                                    </span>
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </span>
-                                          </span>
-                                        </span>
-                                      </span>
-                                    </span>
-                                  </span>
-                                </span>
-                              </span>
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </span>
-          </span>
-        ),
-      },
-      {
-        name: 'button',
-        className: 'banner5-button-wrapper',
-        children: {
-          href: '#',
-          className: 'banner5-button',
-          type: 'primary',
+          ),
+        },
+        button: {
+          className: 'banner1-button l3o76tude3u-editor_css',
           children: (
             <span>
               <span>
                 <span>
-                  <p>了解详情</p>
+                  <span>
+                    <span>
+                      <p>了解详情</p>
+                    </span>
+                  </span>
                 </span>
               </span>
             </span>
@@ -343,171 +155,14 @@ export const Banner50DataSource = {
         },
       },
     ],
-  },
-  image: {
-    className: 'banner5-image l3mwnvywj1-editor_css',
-    children:
-      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
+    className: 'l3o6tr7anmt-editor_css',
   },
 };
-export const Banner53DataSource = {
-  wrapper: { className: 'home-page-wrapper banner5 l3nvt8shr5-editor_css' },
-  page: { className: 'home-page banner5-page' },
-  childWrapper: {
-    className: 'banner5-title-wrapper',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-            <p>我们计划开发</p>
-            <p>天工LCA软件</p>
-          </span>
-        ),
-        className: 'banner5-title l3nvtis6m26-editor_css',
-      },
-      {
-        name: 'explain',
-        className: 'banner5-explain l3nvtkmssn6-editor_css',
-        children: (
-          <span>
-            <p>100%开源、免费、持续迭代</p>
-          </span>
-        ),
-      },
-      {
-        name: 'content',
-        className: 'banner5-content l3nvtmhbj7-editor_css',
-        children: (
-          <span>
-            <p>前沿技术架构：保持长期持续的成长活力</p>
-            <p>协作式开发：可访问、可扩展、可复用</p>
-            <p>跨平台：Windows/macOS/Linux</p>
-            <p>跨终端：PC/Tablet/Browser</p>
-            <p>多语言：中文/English/Japanese/...</p>
-          </span>
-        ),
-      },
-      {
-        name: 'button',
-        className: 'banner5-button-wrapper',
-        children: {
-          href: '#',
-          className: 'banner5-button',
-          type: 'primary',
-          children: (
-            <span>
-              <p>了解详情</p>
-            </span>
-          ),
-        },
-      },
-    ],
-  },
-  image: {
-    className: 'banner5-image',
-    children:
-      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
-  },
-};
-export const Banner52DataSource = {
-  wrapper: { className: 'home-page-wrapper banner5 l3myo8wv8y-editor_css' },
-  page: { className: 'home-page banner5-page' },
-  childWrapper: {
-    className: 'banner5-title-wrapper',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-            <span>
-              <span>
-                <span>
-                  <p>我们计划创建</p>
-                  <p>
-                    天工LCA知识中心<br />
-                  </p>
-                </span>
-              </span>
-            </span>
-          </span>
-        ),
-        className: 'banner5-title l3myp08f17d-editor_css',
-      },
-      {
-        name: 'explain',
-        className: 'banner5-explain l3myozze62-editor_css',
-        children: (
-          <span>
-            <span>
-              <span>
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <span>
-                          <span>
-                            <span>
-                              <span>
-                                <span>
-                                  <span>
-                                    <span>
-                                      <span>
-                                        <span>
-                                          <p>
-                                            开放、免费、<span>
-                                              激发群体智慧
-                                            </span>
-                                            <span>的LCA社区</span>
-                                          </p>
-                                        </span>
-                                      </span>
-                                    </span>
-                                  </span>
-                                </span>
-                              </span>
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </span>
-          </span>
-        ),
-      },
-      {
-        name: 'button',
-        className: 'banner5-button-wrapper',
-        children: {
-          href: '#',
-          className: 'banner5-button',
-          type: 'primary',
-          children: (
-            <span>
-              <p>
-                <span>了解详情</span>
-                <br />
-              </p>
-            </span>
-          ),
-        },
-      },
-    ],
-  },
-  image: {
-    className: 'banner5-image',
-    children:
-      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
-  },
-};
-export const Content121DataSource = {
+export const Feature00DataSource = {
   wrapper: {
-    className: 'home-page-wrapper content12-wrapper l3joiypn8l-editor_css',
+    className: 'home-page-wrapper content0-wrapper l3o5xiqyxu6-editor_css',
   },
-  page: { className: 'home-page content12 l3jtkb6f11n-editor_css' },
+  page: { className: 'home-page content0' },
   OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
     className: 'title-wrapper',
@@ -517,22 +172,398 @@ export const Content121DataSource = {
         children: (
           <span>
             <span>
-              <span>
-                <span>
-                  <p>
-                    <b>发起单位</b>
-                  </p>
-                </span>
-              </span>
+              <p>LCA Suite</p>
             </span>
           </span>
         ),
-        className: 'title-h1 l3joikvyde-editor_css',
+      },
+    ],
+  },
+  childWrapper: {
+    className: 'content0-block-wrapper',
+    children: [
+      {
+        name: 'block0',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children:
+                'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%9B%BE%E6%A0%871-%E6%95%B0%E6%8D%AE%E5%BA%93.svg',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>开放LCA数据体系</p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <span>
+                                      <p>
+                                        全面、科学、开放的生命周期评价数据库
+                                      </p>
+                                    </span>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'button~l3o5y1llq0k',
+              className: '',
+              children: {
+                children: (
+                  <span>
+                    <span>
+                      <p>了解详情</p>
+                    </span>
+                  </span>
+                ),
+                href: '#',
+                type: 'default',
+              },
+            },
+          ],
+        },
+      },
+      {
+        name: 'block1',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children:
+                'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%9B%BE%E6%A0%871-%E6%96%B9%E6%B3%95%E4%BD%93%E7%B3%BB.svg',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <span>
+                    <p>开放LCA方法体系</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>完备、开放的生命周期评价方法库</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'button~l3o6p9humib',
+              className: '',
+              children: {
+                children: (
+                  <span>
+                    <p>了解详情</p>
+                  </span>
+                ),
+                href: '#',
+                type: 'default',
+              },
+            },
+          ],
+        },
+      },
+      {
+        name: 'block2',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children:
+                'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%9B%BE%E6%A0%871-%E5%A4%A9%E5%B7%A5LCA.svg',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <p>天工LCA</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <span>
+                                      <p>
+                                        开源、免费的<span>
+                                          专业生命周期评价工具
+                                        </span>
+                                      </p>
+                                    </span>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'button~l3o67to4xh7',
+              className: '',
+              children: {
+                children: (
+                  <span>
+                    <span>
+                      <p>了解详情</p>
+                    </span>
+                  </span>
+                ),
+                href: '#',
+                type: 'default',
+                className: 'l3o73v7jdwk-editor_css',
+              },
+            },
+          ],
+        },
+      },
+      {
+        name: 'block~l3o5zieao0f',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children:
+                'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%9B%BE%E6%A0%871-%E7%A2%B3.svg',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <p>天工Footprint</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>方便快捷的产品碳足迹计算工具</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content~l3o6pmphfs',
+              className: '',
+              children: (
+                <span>
+                  <span>
+                    <p>敬请期待...</p>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block~l3o5zjrb1',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children:
+                'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%9B%BE%E6%A0%871-%E8%AE%BE%E8%AE%A1.svg',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <p>天工Design</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <p>AI赋能的产品生态设计辅助工具</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content~l3o6puw2y9d',
+              className: '',
+              children: (
+                <span>
+                  <span>
+                    <p>敬请期待...</p>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block~l3o5zkdjc08',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children:
+                'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%9B%BE%E6%A0%871-%E7%BD%91.svg',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <p>天工Cloud</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>融合企业ERP及工业互联网的企业环境管理工具</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content~l3o6qp1ip2p',
+              className: '',
+              children: (
+                <span>
+                  <span>
+                    <p>敬请期待...</p>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+    ],
+  },
+};
+export const Content122DataSource = {
+  wrapper: {
+    className: 'home-page-wrapper content12-wrapper l3sdhaghhge-editor_css',
+  },
+  page: { className: 'home-page content12 l3oai8yhg-editor_css' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'image',
+        children:
+          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
+        className: 'title-image',
+      },
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>项目发起单位</p>
+          </span>
+        ),
+        className: 'title-h1 l3o7129egmc-editor_css',
       },
     ],
   },
   block: {
-    className: 'img-wrapper',
+    className: 'img-wrapper l3oao4tiu16-editor_css',
     children: [
       {
         name: 'block0',
@@ -540,11 +571,11 @@ export const Content121DataSource = {
         md: 8,
         xs: 24,
         children: {
-          wrapper: { className: 'block-content l3jtktmdj7d-editor_css' },
+          wrapper: { className: 'block-content l3ocj2meblo-editor_css' },
           img: {
             children:
-              'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/Others/tsinghua-university-logo2.png',
-            className: 'l3jtk8tye2-editor_css',
+              'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%90%88%E4%BD%9C%E5%8D%95%E4%BD%8Dlogo-%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6.svg',
+            className: 'l3oau253axm-editor_css',
           },
         },
       },
@@ -557,7 +588,7 @@ export const Content121DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/Others/iue2.png',
+              'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%90%88%E4%BD%9C%E5%8D%95%E4%BD%8Dlogo-%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2.svg',
           },
         },
       },
@@ -570,22 +601,7 @@ export const Content121DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/Others/cas2.png',
-            className: 'l3n0euwrws7-editor_css',
-          },
-        },
-      },
-      {
-        name: 'block~l3nvba0uh3q',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        children: {
-          wrapper: { className: 'block-content' },
-          img: {
-            children:
-              'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/Others/fudan2.png',
-            className: 'l3n0euwrws7-editor_css',
+              'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%90%88%E4%BD%9C%E5%8D%95%E4%BD%8Dlogo-%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6.svg',
           },
         },
       },
@@ -628,6 +644,7 @@ export const Footer10DataSource = {
               </span>
             </span>
           ),
+          className: 'l3o72utit4l-editor_css',
         },
         childWrapper: {
           children: [
@@ -649,6 +666,7 @@ export const Footer10DataSource = {
                   </span>
                 </span>
               ),
+              className: 'l3o75bf01tt-editor_css',
             },
             {
               name: 'link1',
@@ -658,6 +676,7 @@ export const Footer10DataSource = {
                   <p>LCA软件</p>
                 </span>
               ),
+              className: 'l3o75h7q0xj-editor_css',
             },
             {
               name: 'link2',
@@ -667,6 +686,7 @@ export const Footer10DataSource = {
                   <p>LCA知识中心</p>
                 </span>
               ),
+              className: 'l3o75jpqoig-editor_css',
             },
           ],
         },
@@ -686,6 +706,7 @@ export const Footer10DataSource = {
               </span>
             </span>
           ),
+          className: 'l3o75lmg7cu-editor_css',
         },
         childWrapper: {
           children: [
@@ -697,6 +718,7 @@ export const Footer10DataSource = {
                   <p>关于我们</p>
                 </span>
               ),
+              className: 'l3o75np6e6d-editor_css',
             },
             {
               href: '#',
@@ -708,6 +730,7 @@ export const Footer10DataSource = {
                   </span>
                 </span>
               ),
+              className: 'l3o75pvnydh-editor_css',
             },
             {
               href: '#',
@@ -717,6 +740,7 @@ export const Footer10DataSource = {
                   <p>联系我们</p>
                 </span>
               ),
+              className: 'l3o75tq0ijb-editor_css',
             },
           ],
         },

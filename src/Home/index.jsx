@@ -2,22 +2,18 @@
 /* eslint arrow-parens: 0 */
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
-import scrollScreen from 'rc-scroll-anim/lib/ScrollScreen';
+
 import Nav0 from './Nav0';
-import Banner3 from './Banner3';
-import Banner5 from './Banner5';
+import Banner1 from './Banner1';
+import Feature0 from './Feature0';
 import Content12 from './Content12';
 import Footer1 from './Footer1';
 
 import {
   Nav00DataSource,
-  Banner30DataSource,
-  Banner31DataSource,
-  Banner32DataSource,
-  Banner50DataSource,
-  Banner53DataSource,
-  Banner52DataSource,
-  Content121DataSource,
+  Banner10DataSource,
+  Feature00DataSource,
+  Content122DataSource,
   Footer10DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
@@ -39,10 +35,6 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-    /* 如果不是 dva 2.0 请使用以下代码
-    // 实现整屏滚动
-    scrollScreen.init({ location: ['Banner3_0', 'Banner3_1', 'Banner3_2', 'Banner5_0', 'Banner5_3', 'Banner5_2', 'Content12_1', 'Footer1_0'] });
-    */
     // 适配手机屏幕;
     enquireScreen((b) => {
       this.setState({ isMobile: !!b });
@@ -54,19 +46,6 @@ export default class Home extends React.Component {
       setTimeout(() => {
         this.setState({
           show: true,
-        });
-        // 实现整屏滚动
-        scrollScreen.init({
-          location: [
-            'Banner3_0',
-            'Banner3_1',
-            'Banner3_2',
-            'Banner5_0',
-            'Banner5_3',
-            'Banner5_2',
-            'Content12_1',
-            'Footer1_0',
-          ],
         });
       }, 500);
     }
@@ -81,46 +60,22 @@ export default class Home extends React.Component {
         dataSource={Nav00DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Banner3
-        id="Banner3_0"
-        key="Banner3_0"
-        dataSource={Banner30DataSource}
+      <Banner1
+        id="Banner1_0"
+        key="Banner1_0"
+        dataSource={Banner10DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Banner3
-        id="Banner3_1"
-        key="Banner3_1"
-        dataSource={Banner31DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Banner3
-        id="Banner3_2"
-        key="Banner3_2"
-        dataSource={Banner32DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Banner5
-        id="Banner5_0"
-        key="Banner5_0"
-        dataSource={Banner50DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Banner5
-        id="Banner5_3"
-        key="Banner5_3"
-        dataSource={Banner53DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Banner5
-        id="Banner5_2"
-        key="Banner5_2"
-        dataSource={Banner52DataSource}
+      <Feature0
+        id="Feature0_0"
+        key="Feature0_0"
+        dataSource={Feature00DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content12
-        id="Content12_1"
-        key="Content12_1"
-        dataSource={Content121DataSource}
+        id="Content12_2"
+        key="Content12_2"
+        dataSource={Content122DataSource}
         isMobile={this.state.isMobile}
       />,
       <Footer1

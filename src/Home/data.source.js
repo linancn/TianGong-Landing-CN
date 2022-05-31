@@ -12,7 +12,7 @@ export const Nav00DataSource = {
     children: [
       {
         name: 'item1',
-        className: 'header0-item l3midgxjboi-editor_css',
+        className: 'l3midgxjboi-editor_css header0-item',
         children: {
           href: '#',
           children: [
@@ -23,7 +23,18 @@ export const Nav00DataSource = {
                     <span>
                       <span>
                         <span>
-                          <p>下载</p>
+                          <span>
+                            <span>
+                              <p>
+                                <a
+                                  href="https://crystalca.org/en/home"
+                                  target="_blank"
+                                >
+                                  下载
+                                </a>
+                              </p>
+                            </span>
+                          </span>
                         </span>
                       </span>
                     </span>
@@ -38,7 +49,7 @@ export const Nav00DataSource = {
       },
       {
         name: 'item2',
-        className: 'header0-item l3mide2gc3-editor_css',
+        className: 'header0-item l3mide2gc3-editor_css ant-menu-item',
         children: {
           href: '#',
           children: [
@@ -46,19 +57,30 @@ export const Nav00DataSource = {
               children: (
                 <span>
                   <span>
-                    <p>社区</p>
+                    <span>
+                      <span>
+                        <p>
+                          <a
+                            href="https://crystalca.org/en/home"
+                            target="_blank"
+                          >
+                            社区
+                          </a>
+                        </p>
+                      </span>
+                    </span>
                   </span>
                 </span>
               ),
               name: 'text',
-              className: 'l3pu5mtfh1u-editor_css',
+              className: 'll3pu5csulxg-editor_css',
             },
           ],
         },
       },
       {
-        name: 'item3',
-        className: 'header0-item l3mid9oclbm-editor_css',
+        name: 'item~l3ttk0vne89',
+        className: 'header0-item l3mide2gc3-editor_css ant-menu-item',
         children: {
           href: '#',
           children: [
@@ -70,32 +92,14 @@ export const Nav00DataSource = {
                       <span>
                         <span>
                           <span>
-                            <span>
-                              <span>
-                                <span>
-                                  <span>
-                                    <span>
-                                      <span>
-                                        <span>
-                                          <span>
-                                            <span>
-                                              <p>
-                                                <a
-                                                  href="https://www.tiangong.earth"
-                                                  target="_blank"
-                                                >
-                                                  English
-                                                </a>
-                                              </p>
-                                            </span>
-                                          </span>
-                                        </span>
-                                      </span>
-                                    </span>
-                                  </span>
-                                </span>
-                              </span>
-                            </span>
+                            <p>
+                              <a
+                                href="https://www.tiangong.earth/"
+                                target="_blank"
+                              >
+                                English
+                              </a>
+                            </p>
                           </span>
                         </span>
                       </span>
@@ -104,7 +108,7 @@ export const Nav00DataSource = {
                 </span>
               ),
               name: 'text',
-              className: 'l3mxgyu2vz-editor_css',
+              className: 'll3pu5csulxg-editor_css',
             },
           ],
         },
@@ -152,6 +156,9 @@ export const Banner10DataSource = {
               </span>
             </span>
           ),
+          type: 'default',
+          href: 'https://crystalca.org/en/home',
+          target: '_blank',
         },
       },
     ],

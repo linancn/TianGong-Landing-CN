@@ -95,13 +95,13 @@
           "children": [
             {
               "name": "item1",
-              "className": "header0-item l3midgxjboi-editor_css",
+              "className": "l3midgxjboi-editor_css header0-item",
               "children": {
                 "href": "#",
                 "children": [
                   {
                     "children":
-                      "<span><span><span><span><span><span><p>下载</p></span></span></span></span></span></span>",
+                      "<span><span><span><span><span><span><span><p><a href=\"https://crystalca.org/en/home\" target=\"_blank\">下载</a></p></span></span></span></span></span></span></span>",
                     "name": "text",
                     "className": "l3pu5csulxg-editor_css"
                   }
@@ -110,13 +110,13 @@
             },
             {
               "name": "item2",
-              "className": "header0-item l3mide2gc3-editor_css",
+              "className": "header0-item l3mide2gc3-editor_css ant-menu-item",
               "children": {
                 "href": "#",
                 "children": [
                   {
                     "children":
-                      "<span><span><span><p><a href=\"https://crystalca.org/\" target=\"_blank\">社区</a></p></span></span></span>",
+                      "<span><span><span><span><p><a href=\"https://crystalca.org/en/home\" target=\"_blank\">社区</a></p></span></span></span></span>",
                     "name": "text",
                     "className": "ll3pu5csulxg-editor_css"
                   }
@@ -124,17 +124,16 @@
               }
             },
             {
-              "name": "item~l3trxlvp1e",
-              "className":
-                "header0-item l3mide2gc3-editor_css ant-menu-item ant-menu-item-only-child",
+              "name": "item~l3ttk0vne89",
+              "className": "header0-item l3mide2gc3-editor_css ant-menu-item",
               "children": {
                 "href": "#",
                 "children": [
                   {
                     "children":
-                      "<span><span><span><span><span><span><span><p><a href=\"https://www.tiangong.earth/\" target=\"_blank\">English</a></p></span></span></span></span></span></span></span>",
+                      "<span><span><span><span><span><span><p><a href=\"https://www.tiangong.earth/\" target=\"_blank\">English</a></p></span></span></span></span></span></span>",
                     "name": "text",
-                    "className": "l3pu5csulxg-editor_css"
+                    "className": "ll3pu5csulxg-editor_css"
                   }
                 ]
               }
@@ -405,7 +404,10 @@
               "button": {
                 "className": "banner1-button l3o76tude3u-editor_css",
                 "children":
-                  "<span><span><span><span><span><p>了解详情</p></span></span></span></span></span>"
+                  "<span><span><span><span><span><p>了解详情</p></span></span></span></span></span>",
+                "type": "default",
+                "href": "https://crystalca.org/en/home",
+                "target": "_blank"
               }
             }
           ],
@@ -747,31 +749,38 @@
     },
     {
       "cssString":
-        "#Feature0_0.l3o5xiqyxu6-editor_css {\n  text-align: right;\n}\n",
-      "id": "Featureloxiqyxueditorcss",
-      "cid": "Feature0_0"
-    },
-    {
-      "cssString":
-        "#Banner1_0 .banner-anim-elem > .banner1-text-wrapper > .l3o76tude3u-editor_css {\n  display: inline;\n  font-size: 14px;\n  border-top-left-radius: 20px;\n  border-top-right-radius: 20px;\n  border-bottom-right-radius: 20px;\n  border-bottom-left-radius: 20px;\n  padding: 0px 15px 4px;\n}\n",
-      "id": "Bannerbanneranimelembannertextwrapperlotudeueditorcss",
-      "cid": "Banner1_0"
-    },
-    {
-      "cssString": "\n",
-      "id": "Navheadermenuantmenuantmenuitem",
-      "cid": "Nav0_0"
-    },
-    {
-      "cssString":
         "#Nav0_0 .header0-menu > .ant-menu > .ant-menu-item-only-child {\n  color: #fbfbfb;\n}\n",
       "id": "Navheadermenuantmenuantmenuitemonlychild",
       "cid": "Nav0_0"
     },
     {
       "cssString":
-        "#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css {\n  color: #fbfbfb;\n}\n#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css:hover {\n  cursor: null;\n  color: rgb(251, 251, 251);\n}\n#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css:active {\n  color: #fbfbfb;\n}\n#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css:focus {\n  color: #fbfbfb;\n}\n",
+        "#Feature0_0.l3o5xiqyxu6-editor_css {\n  text-align: right;\n}\n#Feature0_0.l3o5xiqyxu6-editor_css:hover {\n  cursor: pointer;\n}\n",
+      "id": "Featureloxiqyxueditorcss",
+      "cid": "Feature0_0"
+    },
+    {
+      "cssString":
+        "#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css {\n  \n}\n#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css:hover {\n  cursor: null;\n  color: rgb(251, 251, 251);\n}\n#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css:active {\n  color: #fbfbfb;\n}\n#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css:focus {\n  color: #fbfbfb;\n}\n",
       "id": "Navantmenuitemheaderitemblocklpucsulxgeditorcss",
+      "cid": "Nav0_0"
+    },
+    {
+      "cssString":
+        "#Banner1_0 .banner-anim-elem > .banner1-text-wrapper > .l3o76tude3u-editor_css {\n  cursor: null;\n  font-size: 14px;\n  border-top-left-radius: 20px;\n  border-top-right-radius: 20px;\n  border-bottom-right-radius: 20px;\n  border-bottom-left-radius: 20px;\n  padding: 0px 15px 4px;\n}\n",
+      "id": "Bannerbanneranimelembannertextwrapperlotudeueditorcss",
+      "cid": "Banner1_0"
+    },
+    {
+      "cssString":
+        "#Nav0_0 .header0-menu > .ant-menu > .header0-item {\n  color: #fbfbfb;\n}\n",
+      "id": "Navheadermenuantmenuheaderitem",
+      "cid": "Nav0_0"
+    },
+    {
+      "cssString":
+        "#Nav0_0 .header0-menu > .ant-menu > .ant-menu-item {\n  color: #fbfbfb;\n}\n",
+      "id": "Navheadermenuantmenuantmenuitem",
       "cid": "Nav0_0"
     }
   ]

@@ -190,6 +190,7 @@ export const Feature00DataSource = {
             </span>
           </span>
         ),
+        className: 'l3tw6fpsff-editor_css',
       },
     ],
   },
@@ -212,7 +213,7 @@ export const Feature00DataSource = {
             },
             {
               name: 'title',
-              className: 'content0-block-title',
+              className: 'content0-block-title l3tw6pzhd6b-editor_css',
               children: (
                 <span>
                   <span>
@@ -239,9 +240,11 @@ export const Feature00DataSource = {
                                 <span>
                                   <span>
                                     <span>
-                                      <p>
-                                        全面、科学、开放的生命周期评价数据库
-                                      </p>
+                                      <span>
+                                        <p>
+                                          全面科学开放的产品全生命周期数据库
+                                        </p>
+                                      </span>
                                     </span>
                                   </span>
                                 </span>
@@ -254,6 +257,7 @@ export const Feature00DataSource = {
                   </span>
                 </span>
               ),
+              className: 'l3tw6s4vqlr-editor_css',
             },
             {
               name: 'button~l3o5y1llq0k',
@@ -289,7 +293,7 @@ export const Feature00DataSource = {
             },
             {
               name: 'title',
-              className: 'content0-block-title',
+              className: 'content0-block-title l3tw6uhahet-editor_css',
               children: (
                 <span>
                   <span>
@@ -309,6 +313,7 @@ export const Feature00DataSource = {
                   </span>
                 </span>
               ),
+              className: 'l3tw71cih6-editor_css',
             },
             {
               name: 'button~l3o6p9humib',
@@ -342,7 +347,7 @@ export const Feature00DataSource = {
             },
             {
               name: 'title',
-              className: 'content0-block-title',
+              className: 'content0-block-title l3tw6wavcji-editor_css',
               children: (
                 <span>
                   <p>天工LCA</p>
@@ -380,6 +385,7 @@ export const Feature00DataSource = {
                   </span>
                 </span>
               ),
+              className: 'l3tw6xyl7nl-editor_css',
             },
             {
               name: 'button~l3o67to4xh7',
@@ -416,7 +422,7 @@ export const Feature00DataSource = {
             },
             {
               name: 'title',
-              className: 'content0-block-title',
+              className: 'content0-block-title l3tw7tia0v-editor_css',
               children: (
                 <span>
                   <p>天工Footprint</p>
@@ -465,7 +471,7 @@ export const Feature00DataSource = {
             },
             {
               name: 'title',
-              className: 'content0-block-title',
+              className: 'content0-block-title l3tw7rxi4k8-editor_css',
               children: (
                 <span>
                   <p>天工Design</p>
@@ -479,10 +485,11 @@ export const Feature00DataSource = {
                   <p>AI赋能的产品生态设计辅助工具</p>
                 </span>
               ),
+              className: 'l3tw7v286jf-editor_css',
             },
             {
               name: 'content~l3o6puw2y9d',
-              className: '',
+              className: 'l3tw7wk9zb-editor_css',
               children: (
                 <span>
                   <span>
@@ -510,7 +517,7 @@ export const Feature00DataSource = {
             },
             {
               name: 'title',
-              className: 'content0-block-title',
+              className: 'content0-block-title l3tw7qed2n9-editor_css',
               children: (
                 <span>
                   <p>天工Cloud</p>
@@ -525,17 +532,20 @@ export const Feature00DataSource = {
                     <span>
                       <span>
                         <span>
-                          <p>融合企业ERP及工业互联网的企业环境管理工具</p>
+                          <span>
+                            <p>融合企业ERP及工业互联网的企业环境管理工具</p>
+                          </span>
                         </span>
                       </span>
                     </span>
                   </span>
                 </span>
               ),
+              className: 'l3tw7oesyb9-editor_css',
             },
             {
               name: 'content~l3o6qp1ip2p',
-              className: '',
+              className: 'l3tw7zd0dtp-editor_css',
               children: (
                 <span>
                   <span>

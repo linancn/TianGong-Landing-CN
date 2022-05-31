@@ -12,7 +12,7 @@ export const Nav00DataSource = {
     children: [
       {
         name: 'item1',
-        className: 'l3midgxjboi-editor_css header0-item',
+        className: 'header0-item ant-menu-item l3midgxjboi-editor_css',
         children: {
           href: '#',
           children: [
@@ -45,11 +45,12 @@ export const Nav00DataSource = {
               className: 'l3pu5csulxg-editor_css',
             },
           ],
+          className: 'l3tu9573i2j-editor_css',
         },
       },
       {
         name: 'item2',
-        className: 'header0-item l3mide2gc3-editor_css ant-menu-item',
+        className: 'header0-item ant-menu-item l3mide2gc3-editor_css',
         children: {
           href: '#',
           children: [
@@ -76,11 +77,12 @@ export const Nav00DataSource = {
               className: 'll3pu5csulxg-editor_css',
             },
           ],
+          className: 'l3tu8sba6tj-editor_css',
         },
       },
       {
         name: 'item~l3ttk0vne89',
-        className: 'header0-item l3mide2gc3-editor_css ant-menu-item',
+        className: 'header0-item ant-menu-item l3mide2gc3-editor_css',
         children: {
           href: '#',
           children: [
@@ -149,7 +151,11 @@ export const Banner10DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>了解详情</p>
+                      <span>
+                        <span>
+                          <p>了解详情</p>
+                        </span>
+                      </span>
                     </span>
                   </span>
                 </span>

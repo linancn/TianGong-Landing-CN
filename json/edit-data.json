@@ -101,7 +101,7 @@
                 "children": [
                   {
                     "children":
-                      "<span><span><span><span><span><p>下载</p></span></span></span></span></span>",
+                      "<span><span><span><span><span><span><p>下载</p></span></span></span></span></span></span>",
                     "name": "text",
                     "className": "l3pu5csulxg-editor_css"
                   }
@@ -115,24 +115,26 @@
                 "href": "#",
                 "children": [
                   {
-                    "children": "<span><span><p>社区</p></span></span>",
+                    "children":
+                      "<span><span><span><p><a href=\"https://crystalca.org/\" target=\"_blank\">社区</a></p></span></span></span>",
                     "name": "text",
-                    "className": "l3pu5mtfh1u-editor_css"
+                    "className": "ll3pu5csulxg-editor_css"
                   }
                 ]
               }
             },
             {
-              "name": "item3",
-              "className": "header0-item l3mid9oclbm-editor_css",
+              "name": "item~l3trxlvp1e",
+              "className":
+                "header0-item l3mide2gc3-editor_css ant-menu-item ant-menu-item-only-child",
               "children": {
                 "href": "#",
                 "children": [
                   {
                     "children":
-                      "<span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><p><a href=\"https://www.tiangong.earth\" target=\"_blank\">English</a></p></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>",
+                      "<span><span><span><span><span><span><span><p><a href=\"https://www.tiangong.earth/\" target=\"_blank\">English</a></p></span></span></span></span></span></span></span>",
                     "name": "text",
-                    "className": "l3mxgyu2vz-editor_css"
+                    "className": "l3pu5csulxg-editor_css"
                   }
                 ]
               }
@@ -517,11 +519,6 @@
       "cid": "Nav0_0"
     },
     {
-      "cssString": "#Feature0_0.l3o5xiqyxu6-editor_css {\n  \n}\n",
-      "id": "Featureloxiqyxueditorcss",
-      "cid": "Feature0_0"
-    },
-    {
       "cssString":
         "#Banner1_0 .banner-anim > .banner-anim-elem > .l3o6t2d3wzh-editor_css {\n  height: 50vh;\n}\n",
       "id": "Bannerbanneranimbanneranimelemlotdwzheditorcss",
@@ -660,12 +657,6 @@
     },
     {
       "cssString":
-        "#Banner1_0 .banner-anim-elem > .banner1-text-wrapper > .l3o76tude3u-editor_css {\n  font-size: 14px;\n  background-color: #f04134;\n  border-top-left-radius: 20px;\n  border-top-right-radius: 20px;\n  border-bottom-right-radius: 20px;\n  border-bottom-left-radius: 20px;\n  padding: 0px 15px 4px;\n}\n",
-      "id": "Bannerbanneranimelembannertextwrapperlotudeueditorcss",
-      "cid": "Banner1_0"
-    },
-    {
-      "cssString":
         "#Content12_2 .ant-col > .block-content > .l3oau253axm-editor_css {\n  position: relative;\n}\n",
       "id": "Contentantcolblockcontentloauaxmeditorcss",
       "cid": "Content12_2"
@@ -681,18 +672,6 @@
         "#Content12_2 .ant-row > .ant-col > .l3ocj2meblo-editor_css {\n  \n}\n",
       "id": "Contentantrowantcollocjmebloeditorcss",
       "cid": "Content12_2"
-    },
-    {
-      "cssString":
-        "#Banner1_0 .l3o6tr7anmt-editor_css > .banner-anim-elem > .l3o6t2d3wzh-editor_css {\n  height: 50vh;\n  background-image: url(https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E4%B8%BB%E8%83%8C%E6%99%AF%E5%9B%BE.svg);\n  background-blend-mode: multiply;\n  background-repeat: no-repeat;\n  background-clip: border-box, padding-box;\n}\n",
-      "id": "Bannerlotranmteditorcssbanneranimelemlotdwzheditorcss",
-      "cid": "Banner1_0"
-    },
-    {
-      "cssString":
-        "#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css {\n  color: #fbfbfb;\n}\n",
-      "id": "Navantmenuitemheaderitemblocklpucsulxgeditorcss",
-      "cid": "Nav0_0"
     },
     {
       "cssString":
@@ -726,12 +705,6 @@
     },
     {
       "cssString":
-        "#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5mtfh1u-editor_css {\n  box-shadow: none;\n  text-shadow: none;\n}\n",
-      "id": "Navantmenuitemheaderitemblocklpumtfhueditorcss",
-      "cid": "Nav0_0"
-    },
-    {
-      "cssString":
         "#Content12_2.l3sdhaghhge-editor_css {\n  min-height: 300px;\n  margin: 0px 0px;\n  padding: 0px 0px;\n}\n",
       "id": "Contentlsdhaghhgeeditorcss",
       "cid": "Content12_2"
@@ -752,6 +725,53 @@
       "cssString":
         "#Nav0_0 .home-page > .l3pr66b6au-editor_css {\n  background-clip: padding-box;\n  background-color: #222222;\n}\n",
       "id": "Navhomepagelprbaueditorcss",
+      "cid": "Nav0_0"
+    },
+    {
+      "cssString":
+        "#Banner1_0 .l3o6tr7anmt-editor_css > .banner-anim-elem > .l3o6t2d3wzh-editor_css {\n  height: 50vh;\n  background-image: url(\"https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E4%B8%BB%E8%83%8C%E6%99%AF%E5%9B%BE.svg\");\n  background-blend-mode: multiply;\n  background-repeat: no-repeat;\n  background-clip: border-box, padding-box;\n}\n",
+      "id": "Bannerlotranmteditorcssbanneranimelemlotdwzheditorcss",
+      "cid": "Banner1_0"
+    },
+    {
+      "cssString":
+        "#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5mtfh1u-editor_css {\n  \n}\n",
+      "id": "Navantmenuitemheaderitemblocklpumtfhueditorcss",
+      "cid": "Nav0_0"
+    },
+    {
+      "cssString":
+        "#Nav0_0 .ant-menu-item > .header0-item-block > .ll3pu5csulxg-editor_css {\n  color: #fbfbfb;\n}\n#Nav0_0 .ant-menu-item > .header0-item-block > .ll3pu5csulxg-editor_css:hover {\n  color: #fbfbfb;\n}\n#Nav0_0 .ant-menu-item > .header0-item-block > .ll3pu5csulxg-editor_css:active {\n  color: #fbfbfb;\n}\n#Nav0_0 .ant-menu-item > .header0-item-block > .ll3pu5csulxg-editor_css:focus {\n  cursor: null;\n  color: #fbfbfb;\n}\n",
+      "id": "Navantmenuitemheaderitemblockllpucsulxgeditorcss",
+      "cid": "Nav0_0"
+    },
+    {
+      "cssString":
+        "#Feature0_0.l3o5xiqyxu6-editor_css {\n  text-align: right;\n}\n",
+      "id": "Featureloxiqyxueditorcss",
+      "cid": "Feature0_0"
+    },
+    {
+      "cssString":
+        "#Banner1_0 .banner-anim-elem > .banner1-text-wrapper > .l3o76tude3u-editor_css {\n  display: inline;\n  font-size: 14px;\n  border-top-left-radius: 20px;\n  border-top-right-radius: 20px;\n  border-bottom-right-radius: 20px;\n  border-bottom-left-radius: 20px;\n  padding: 0px 15px 4px;\n}\n",
+      "id": "Bannerbanneranimelembannertextwrapperlotudeueditorcss",
+      "cid": "Banner1_0"
+    },
+    {
+      "cssString": "\n",
+      "id": "Navheadermenuantmenuantmenuitem",
+      "cid": "Nav0_0"
+    },
+    {
+      "cssString":
+        "#Nav0_0 .header0-menu > .ant-menu > .ant-menu-item-only-child {\n  color: #fbfbfb;\n}\n",
+      "id": "Navheadermenuantmenuantmenuitemonlychild",
+      "cid": "Nav0_0"
+    },
+    {
+      "cssString":
+        "#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css {\n  color: #fbfbfb;\n}\n#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css:hover {\n  cursor: null;\n  color: rgb(251, 251, 251);\n}\n#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css:active {\n  color: #fbfbfb;\n}\n#Nav0_0 .ant-menu-item > .header0-item-block > .l3pu5csulxg-editor_css:focus {\n  color: #fbfbfb;\n}\n",
+      "id": "Navantmenuitemheaderitemblocklpucsulxgeditorcss",
       "cid": "Nav0_0"
     }
   ]

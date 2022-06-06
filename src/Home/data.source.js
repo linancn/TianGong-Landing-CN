@@ -12,7 +12,7 @@ export const Nav30DataSource = {
     children: [
       {
         name: 'item1',
-        className: 'header3-item',
+        className: 'header3-item l42g4c3fvl6-editor_css',
         children: {
           href: 'https://crystalca.org/en/home',
           children: [
@@ -27,11 +27,12 @@ export const Nav30DataSource = {
             },
           ],
           target: '_blank',
+          className: 'l42g7nkj9l-editor_css',
         },
       },
       {
         name: 'item2',
-        className: 'header3-item',
+        className: 'header3-item l42g4th6c9-editor_css',
         children: {
           href: 'https://crystalca.org/en/home',
           children: [
@@ -48,11 +49,12 @@ export const Nav30DataSource = {
               className: 'l42ftwb24k-editor_css',
             },
           ],
+          className: 'l42g7v2kgp-editor_css',
         },
       },
       {
         name: 'item3',
-        className: 'header3-item',
+        className: 'header3-item l42g4zxbbwq-editor_css',
         children: {
           href: 'https://www.tiangong.earth/',
           children: [
@@ -67,6 +69,7 @@ export const Nav30DataSource = {
             },
           ],
           target: '_blank',
+          className: 'l42g7xqgpy-editor_css',
         },
       },
     ],

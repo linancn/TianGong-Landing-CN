@@ -442,7 +442,7 @@
           "children": [
             {
               "name": "item1",
-              "className": "header3-item",
+              "className": "header3-item l42g4c3fvl6-editor_css",
               "children": {
                 "href": "https://crystalca.org/en/home",
                 "children": [
@@ -452,12 +452,13 @@
                     "className": "l42ft5faqz-editor_css"
                   }
                 ],
-                "target": "_blank"
+                "target": "_blank",
+                "className": "l42g7nkj9l-editor_css"
               }
             },
             {
               "name": "item2",
-              "className": "header3-item",
+              "className": "header3-item l42g4th6c9-editor_css",
               "children": {
                 "href": "https://crystalca.org/en/home",
                 "children": [
@@ -466,12 +467,13 @@
                     "name": "text",
                     "className": "l42ftwb24k-editor_css"
                   }
-                ]
+                ],
+                "className": "l42g7v2kgp-editor_css"
               }
             },
             {
               "name": "item3",
-              "className": "header3-item",
+              "className": "header3-item l42g4zxbbwq-editor_css",
               "children": {
                 "href": "https://www.tiangong.earth/",
                 "children": [
@@ -481,7 +483,8 @@
                     "className": "l42ftyje4r-editor_css"
                   }
                 ],
-                "target": "_blank"
+                "target": "_blank",
+                "className": "l42g7xqgpy-editor_css"
               }
             }
           ]
@@ -807,6 +810,42 @@
       "cssString":
         "#Nav3_0 .ant-menu-item > .header3-item-block > .l42ftyje4r-editor_css {\n  color: rgb(255, 255, 255);\n}\n",
       "id": "Navantmenuitemheaderitemblocklftyjereditorcss",
+      "cid": "Nav3_0"
+    },
+    {
+      "cssString":
+        "#Nav3_0 .header3-menu > .ant-menu > .l42g4th6c9-editor_css {\n  transition: none;\n}\n",
+      "id": "Navheadermenuantmenulgthceditorcss",
+      "cid": "Nav3_0"
+    },
+    {
+      "cssString":
+        "#Nav3_0 .header3-menu > .ant-menu > .l42g4zxbbwq-editor_css {\n  transition: none;\n}\n",
+      "id": "Navheadermenuantmenulgzxbbwqeditorcss",
+      "cid": "Nav3_0"
+    },
+    {
+      "cssString":
+        "#Nav3_0 .header3-menu > .ant-menu > .l42g4c3fvl6-editor_css {\n  transition: none;\n}\n",
+      "id": "Navheadermenuantmenulgcfvleditorcss",
+      "cid": "Nav3_0"
+    },
+    {
+      "cssString":
+        "#Nav3_0 .ant-menu > .ant-menu-item > .l42g7nkj9l-editor_css {\n  \n}\n",
+      "id": "Navantmenuantmenuitemlgnkjleditorcss",
+      "cid": "Nav3_0"
+    },
+    {
+      "cssString":
+        "#Nav3_0 .ant-menu > .ant-menu-item > .l42g7v2kgp-editor_css {\n  transition: none;\n}\n",
+      "id": "Navantmenuantmenuitemlgvkgpeditorcss",
+      "cid": "Nav3_0"
+    },
+    {
+      "cssString":
+        "#Nav3_0 .ant-menu > .ant-menu-item > .l42g7xqgpy-editor_css {\n  transition: none;\n}\n",
+      "id": "Navantmenuantmenuitemlgxqgpyeditorcss",
       "cid": "Nav3_0"
     }
   ]

@@ -1,9 +1,9 @@
 import React from 'react';
-export const Nav30DataSource = {
-  wrapper: { className: 'header3 home-page-wrapper l42fs6m07s-editor_css' },
-  page: { className: 'home-page' },
+export const Nav31DataSource = {
+  wrapper: { className: 'header3 home-page-wrapper l42hu1mp4x-editor_css' },
+  page: { className: 'home-page l42ht2ltgzb-editor_css' },
   logo: {
-    className: 'header3-logo',
+    className: 'header3-logo l42hsx2p3p7-editor_css',
     children:
       'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%A4%A9%E5%B7%A5%E4%B8%AD%E6%96%87-%E5%8F%8D%E7%99%BD.svg',
   },
@@ -12,9 +12,9 @@ export const Nav30DataSource = {
     children: [
       {
         name: 'item1',
-        className: 'header3-item l42g4c3fvl6-editor_css',
+        className: 'header3-item',
         children: {
-          href: 'https://crystalca.org/en/home',
+          href: '#',
           children: [
             {
               children: (
@@ -23,40 +23,32 @@ export const Nav30DataSource = {
                 </span>
               ),
               name: 'text',
-              className: 'l42ft5faqz-editor_css',
             },
           ],
-          target: '_blank',
-          className: 'l42g7nkj9l-editor_css',
         },
       },
       {
         name: 'item2',
-        className: 'header3-item l42g4th6c9-editor_css',
+        className: 'header3-item',
         children: {
-          href: 'https://crystalca.org/en/home',
+          href: '#',
           children: [
             {
               children: (
                 <span>
-                  <p>
-                    <span>社区</span>
-                    <br />
-                  </p>
+                  <p>社区</p>
                 </span>
               ),
               name: 'text',
-              className: 'l42ftwb24k-editor_css',
             },
           ],
-          className: 'l42g7v2kgp-editor_css',
         },
       },
       {
         name: 'item3',
-        className: 'header3-item l42g4zxbbwq-editor_css',
+        className: 'header3-item',
         children: {
-          href: 'https://www.tiangong.earth/',
+          href: '#',
           children: [
             {
               children: (
@@ -65,11 +57,8 @@ export const Nav30DataSource = {
                 </span>
               ),
               name: 'text',
-              className: 'l42ftyje4r-editor_css',
             },
           ],
-          target: '_blank',
-          className: 'l42g7xqgpy-editor_css',
         },
       },
     ],

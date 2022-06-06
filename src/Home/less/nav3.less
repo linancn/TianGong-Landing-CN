@@ -110,6 +110,7 @@
       left: -24px;
       width: ~"calc(100% + 48px)";
       opacity: 0;
+      transition: opacity .3s @ease-in-out;
       background: #fff;
 
       & li {
@@ -129,6 +130,7 @@
     &-mobile-menu {
       width: 16px;
       height: 14px;
+      cursor: pointer;
       position: absolute;
       top: 24px;
       right: 24px;
@@ -140,6 +142,7 @@
         height: 2px;
         background: @template-nav-bg-color;
         margin-top: 4px;
+        transition: transform .3s @ease-in-out, opacity .3s @ease-in-out;
       }
 
       :first-child {
@@ -162,7 +165,7 @@
       .@{header3}-mobile-menu {
         em {
           &:nth-child(1) {
-            opacity: 0;
+            transform: translateY(6px) rotate(45deg);
           }
 
           &:nth-child(2) {
@@ -170,13 +173,14 @@
           }
 
           &:nth-child(3) {
-            opacity: 0;
+            transform: translateY(-6px) rotate(-45deg);
           }
         }
       }
 
       >.@{header3}-menu {
-        opacity: 0;
+        opacity: 1;
+        pointer-events: auto;
       }
     }
     &-item-block {

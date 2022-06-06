@@ -10,7 +10,7 @@ import Content12 from './Content12';
 import Footer1 from './Footer1';
 
 import {
-  Nav30DataSource,
+  Nav31DataSource,
   Banner10DataSource,
   Feature00DataSource,
   Content122DataSource,
@@ -55,9 +55,9 @@ export default class Home extends React.Component {
   render() {
     const children = [
       <Nav3
-        id="Nav3_0"
-        key="Nav3_0"
-        dataSource={Nav30DataSource}
+        id="Nav3_1"
+        key="Nav3_1"
+        dataSource={Nav31DataSource}
         isMobile={this.state.isMobile}
       />,
       <Banner1

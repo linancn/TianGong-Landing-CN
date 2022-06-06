@@ -110,7 +110,6 @@
       left: -24px;
       width: ~"calc(100% + 48px)";
       opacity: 0;
-      transition: none;
       background: #fff;
 
       & li {
@@ -142,7 +141,6 @@
         height: 2px;
         background: @template-nav-bg-color;
         margin-top: 4px;
-        transition: none;
       }
 
       :first-child {
@@ -179,7 +177,7 @@
       }
 
       >.@{header3}-menu {
-        opacity: 1;
+        opacity: 0;
         pointer-events: auto;
       }
     }

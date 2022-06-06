@@ -814,19 +814,19 @@
     },
     {
       "cssString":
-        "#Nav0_1 .header0-menu > .ant-menu > .l42476ywg0t-editor_css {\n  border-top-color: initial;\n  border-right-color: initial;\n  border-left-color: initial;\n  height: 100%;\n  background-color: rgb(0, 0, 0);\n  border-bottom-color: rgb(34, 34, 34);\n}\n",
+        "#Nav0_1 .header0-menu > .ant-menu > .l42476ywg0t-editor_css {\n  border-top-color: initial;\n  border-right-color: initial;\n  border-left-color: initial;\n  color: #fbfbfb;\n  height: 100%;\n  background-color: rgb(0, 0, 0);\n  border-bottom-color: rgb(34, 34, 34);\n}\n",
       "id": "Navheadermenuantmenulywgteditorcss",
       "cid": "Nav0_1"
     },
     {
       "cssString":
-        "#Nav0_1 .header0-menu > .ant-menu > .l42479zrox-editor_css {\n  border-top-color: initial;\n  border-right-color: initial;\n  border-left-color: initial;\n  height: 100%;\n  background-color: rgb(0, 0, 0);\n}\n",
+        "#Nav0_1 .header0-menu > .ant-menu > .l42479zrox-editor_css {\n  border-top-color: initial;\n  border-right-color: initial;\n  border-left-color: initial;\n  color: rgb(251, 251, 251);\n  height: 100%;\n  background-color: rgb(0, 0, 0);\n}\n",
       "id": "Navheadermenuantmenulzroxeditorcss",
       "cid": "Nav0_1"
     },
     {
       "cssString":
-        "#Nav0_1 .header0-menu > .ant-menu > .l4247apqz6-editor_css {\n  border-top-color: initial;\n  border-right-color: initial;\n  border-left-color: initial;\n  height: 100%;\n  background-color: rgb(0, 0, 0);\n  border-bottom-color: rgb(0, 0, 0);\n}\n",
+        "#Nav0_1 .header0-menu > .ant-menu > .l4247apqz6-editor_css {\n  border-top-color: initial;\n  border-right-color: initial;\n  border-left-color: initial;\n  color: rgb(251, 251, 251);\n  height: 100%;\n  background-color: rgb(0, 0, 0);\n  border-bottom-color: rgb(0, 0, 0);\n}\n",
       "id": "Navheadermenuantmenulapqzeditorcss",
       "cid": "Nav0_1"
     }

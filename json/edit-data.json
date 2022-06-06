@@ -429,56 +429,57 @@
         }
       }
     },
-    "Nav3_1": {
+    "Nav3_2": {
       "dataSource": {
-        "logo": {
-          "children":
-            "https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%A4%A9%E5%B7%A5%E4%B8%AD%E6%96%87-%E5%8F%8D%E7%99%BD.svg",
-          "className": "header3-logo l42hsx2p3p7-editor_css"
-        },
-        "page": { "className": "home-page l42ht2ltgzb-editor_css" },
-        "wrapper": {
-          "className": "header3 home-page-wrapper l42hu1mp4x-editor_css"
-        },
         "Menu": {
           "children": [
             {
               "name": "item1",
               "className": "header3-item",
               "children": {
-                "href": "#",
+                "href": "https://crystalca.org/en/home",
                 "children": [
                   { "children": "<span><p>下载</p></span>", "name": "text" }
-                ]
+                ],
+                "target": "_blank"
               }
             },
             {
               "name": "item2",
               "className": "header3-item",
               "children": {
-                "href": "#",
+                "href": "https://crystalca.org/en/home",
                 "children": [
                   { "children": "<span><p>社区</p></span>", "name": "text" }
-                ]
+                ],
+                "target": "_blank"
               }
             },
             {
               "name": "item3",
               "className": "header3-item",
               "children": {
-                "href": "#",
+                "href": "https://www.tiangong.earth/",
                 "children": [
-                  { "children": "<span><p>English</p></span>", "name": "text" }
-                ]
+                  {
+                    "children": "<span><span><p>English</p></span></span>",
+                    "name": "text"
+                  }
+                ],
+                "target": "_blank"
               }
             }
           ]
+        },
+        "logo": {
+          "children":
+            "https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%A4%A9%E5%B7%A5%E4%B8%AD%E6%96%87-%E5%8F%8D%E7%99%BD.svg"
         }
       }
     }
   },
   "other": {},
-  "template": ["Nav3_1", "Banner1_0", "Feature0_0", "Content12_2", "Footer1_0"],
+  "template": ["Nav3_2", "Banner1_0", "Feature0_0", "Content12_2", "Footer1_0"],
   "page": {},
   "style": [
     {
@@ -772,24 +773,6 @@
         "#Footer1_0 .ant-col > div > .l3o75jpqoig-editor_css {\n  color: rgb(255, 255, 255);\n}\n",
       "id": "Footerantcoldivlojpqoigeditorcss",
       "cid": "Footer1_0"
-    },
-    {
-      "cssString":
-        "#Nav3_1 .l42ht2ltgzb-editor_css {\n  background-color: rgb(0, 0, 0);\n}\n",
-      "id": "Navlhtltgzbeditorcss",
-      "cid": "Nav3_1"
-    },
-    {
-      "cssString":
-        "#Nav3_1 .home-page > .l42hsx2p3p7-editor_css {\n  background-color: rgb(0, 0, 0);\n}\n",
-      "id": "Navhomepagelhsxppeditorcss",
-      "cid": "Nav3_1"
-    },
-    {
-      "cssString":
-        "#Nav3_1.l42hu1mp4x-editor_css {\n  background-color: rgb(0, 0, 0);\n}\n",
-      "id": "Navlhumpxeditorcss",
-      "cid": "Nav3_1"
     }
   ]
 }

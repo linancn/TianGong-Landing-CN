@@ -1,9 +1,9 @@
 import React from 'react';
-export const Nav31DataSource = {
-  wrapper: { className: 'header3 home-page-wrapper l42hu1mp4x-editor_css' },
-  page: { className: 'home-page l42ht2ltgzb-editor_css' },
+export const Nav32DataSource = {
+  wrapper: { className: 'header3 home-page-wrapper' },
+  page: { className: 'home-page' },
   logo: {
-    className: 'header3-logo l42hsx2p3p7-editor_css',
+    className: 'header3-logo',
     children:
       'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%A4%A9%E5%B7%A5%E4%B8%AD%E6%96%87-%E5%8F%8D%E7%99%BD.svg',
   },
@@ -14,7 +14,7 @@ export const Nav31DataSource = {
         name: 'item1',
         className: 'header3-item',
         children: {
-          href: '#',
+          href: 'https://crystalca.org/en/home',
           children: [
             {
               children: (
@@ -25,13 +25,14 @@ export const Nav31DataSource = {
               name: 'text',
             },
           ],
+          target: '_blank',
         },
       },
       {
         name: 'item2',
         className: 'header3-item',
         children: {
-          href: '#',
+          href: 'https://crystalca.org/en/home',
           children: [
             {
               children: (
@@ -42,23 +43,27 @@ export const Nav31DataSource = {
               name: 'text',
             },
           ],
+          target: '_blank',
         },
       },
       {
         name: 'item3',
         className: 'header3-item',
         children: {
-          href: '#',
+          href: 'https://www.tiangong.earth/',
           children: [
             {
               children: (
                 <span>
-                  <p>English</p>
+                  <span>
+                    <p>English</p>
+                  </span>
                 </span>
               ),
               name: 'text',
             },
           ],
+          target: '_blank',
         },
       },
     ],

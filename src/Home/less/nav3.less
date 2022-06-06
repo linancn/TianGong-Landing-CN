@@ -129,7 +129,6 @@
     &-mobile-menu {
       width: 16px;
       height: 14px;
-      cursor: pointer;
       position: absolute;
       top: 24px;
       right: 24px;
@@ -163,7 +162,7 @@
       .@{header3}-mobile-menu {
         em {
           &:nth-child(1) {
-            transform: translateY(6px) rotate(45deg);
+            opacity: 0;
           }
 
           &:nth-child(2) {
@@ -171,14 +170,13 @@
           }
 
           &:nth-child(3) {
-            transform: translateY(-6px) rotate(-45deg);
+            opacity: 0;
           }
         }
       }
 
       >.@{header3}-menu {
         opacity: 0;
-        pointer-events: auto;
       }
     }
     &-item-block {

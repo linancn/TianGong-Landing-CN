@@ -36,12 +36,6 @@ export const Nav33DataSource = {
               className: 'item-sub-item l48cjzrpjg7-editor_css',
               children: [
                 {
-                  name: 'image0',
-                  className: 'item-image l48cmt2lwp-editor_css',
-                  children:
-                    'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/test1.png',
-                },
-                {
                   name: 'content',
                   className: 'item-content l48cjldadfs-editor_css',
                   children: (
@@ -70,12 +64,6 @@ export const Nav33DataSource = {
             children: {
               className: 'item-sub-item l48cjzrpjg7-editor_css',
               children: [
-                {
-                  name: 'image0',
-                  className: 'item-image l48cmt2lwp-editor_css',
-                  children:
-                    'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/test2.png',
-                },
                 {
                   name: 'content',
                   className: 'item-content l48cjldadfs-editor_css',

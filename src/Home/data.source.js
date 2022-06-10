@@ -1,5 +1,5 @@
 import React from 'react';
-export const Nav33DataSource = {
+export const Nav34DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
@@ -19,9 +19,7 @@ export const Nav33DataSource = {
             {
               children: (
                 <span>
-                  <span>
-                    <p>下载</p>
-                  </span>
+                  <p>下载</p>
                 </span>
               ),
               name: 'text',
@@ -31,26 +29,30 @@ export const Nav33DataSource = {
         subItem: [
           {
             name: 'sub0',
-            className: 'item-sub l48cj2nwrt-editor_css',
+            className: 'item-sub',
             children: {
-              className: 'item-sub-item l48cjzrpjg7-editor_css',
+              className: 'item-sub-item',
               children: [
                 {
-                  name: 'content',
-                  className: 'item-content l48cjldadfs-editor_css',
+                  name: 'image0',
+                  className: 'item-image',
+                  children:
+                    'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/test1.png',
+                },
+                {
+                  name: 'title',
+                  className: 'item-title',
                   children: (
                     <span>
                       <span>
-                        <span>
-                          <p>
-                            <a
-                              href="https://wiki.tiangong.earth/"
-                              target="_blank"
-                            >
-                              数据库
-                            </a>
-                          </p>
-                        </span>
+                        <p>
+                          <a
+                            href="https://wiki.tiangong.earth/"
+                            target="_blank"
+                          >
+                            数据库
+                          </a>
+                        </p>
                       </span>
                     </span>
                   ),
@@ -60,28 +62,30 @@ export const Nav33DataSource = {
           },
           {
             name: 'sub1',
-            className: 'item-sub l48cj2nwrt-editor_css',
+            className: 'item-sub',
             children: {
-              className: 'item-sub-item l48cjzrpjg7-editor_css',
+              className: 'item-sub-item',
               children: [
                 {
-                  name: 'content',
-                  className: 'item-content l48cjldadfs-editor_css',
+                  name: 'image0',
+                  className: 'item-image',
+                  children:
+                    'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/test2.png',
+                },
+                {
+                  name: 'title',
+                  className: 'item-title',
                   children: (
                     <span>
                       <span>
-                        <span>
-                          <span>
-                            <p>
-                              <a
-                                href="https://software.tiangong.earth/"
-                                target="_blank"
-                              >
-                                生命周期评价工具
-                              </a>
-                            </p>
-                          </span>
-                        </span>
+                        <p>
+                          <a
+                            href="https://software.tiangong.earth/"
+                            target="_blank"
+                          >
+                            生命周期评价工具
+                          </a>
+                        </p>
                       </span>
                     </span>
                   ),

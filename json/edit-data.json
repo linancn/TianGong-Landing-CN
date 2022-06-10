@@ -440,7 +440,11 @@
               "children": {
                 "href": "#",
                 "children": [
-                  { "children": "<span><p>English</p></span>", "name": "text" }
+                  {
+                    "children":
+                      "<span><span><p><a href=\"https://www.tiangong.earth/\" target=\"_blank\">English</a></p></span></span>",
+                    "name": "text"
+                  }
                 ]
               }
             }
@@ -849,14 +853,14 @@
     },
     {
       "cssString":
-        ".ant-menu-item > .item-sub-item > .l48cmt2lwp-editor_css {\n  height: 30px;\n}\n",
-      "id": "antmenuitemitemsubitemlcmtlwpeditorcss",
+        ".ant-menu-item > .item-sub-item > .l48cjldadfs-editor_css {\n  height: 40px;\n  margin: 0px 0px 0px 46px;\n  padding: 10px 0px 0px;\n}\n",
+      "id": "antmenuitemitemsubitemlcjldadfseditorcss",
       "cid": "Nav3_3"
     },
     {
       "cssString":
-        ".ant-menu-item > .item-sub-item > .l48cjldadfs-editor_css {\n  height: 40px;\n  margin: 0px 0px 0px 46px;\n  padding: 10px 0px 0px;\n}\n",
-      "id": "antmenuitemitemsubitemlcjldadfseditorcss",
+        ".ant-menu-item > .item-sub-item > .l48cmt2lwp-editor_css {\n  line-height: 1;\n  height: 40px;\n  margin: 0px 16px 0 0 ;\n}\n",
+      "id": "antmenuitemitemsubitemlcmtlwpeditorcss",
       "cid": "Nav3_3"
     }
   ]

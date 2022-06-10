@@ -112,7 +112,13 @@ export const Nav33DataSource = {
             {
               children: (
                 <span>
-                  <p>English</p>
+                  <span>
+                    <p>
+                      <a href="https://www.tiangong.earth/" target="_blank">
+                        English
+                      </a>
+                    </p>
+                  </span>
                 </span>
               ),
               name: 'text',

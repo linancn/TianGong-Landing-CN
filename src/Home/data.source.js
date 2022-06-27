@@ -123,14 +123,18 @@ export const Feature00DataSource = {
                           <span>
                             <span>
                               <span>
-                                <p>
-                                  <a
-                                    href="https://wiki.tiangong.earth/"
-                                    target="_blank"
-                                  >
-                                    数据库
-                                  </a>
-                                </p>
+                                <span>
+                                  <span>
+                                    <p>
+                                      <a
+                                        href="https://wiki.tiangong.earth/"
+                                        target="_blank"
+                                      >
+                                        数据库
+                                      </a>
+                                    </p>
+                                  </span>
+                                </span>
                               </span>
                             </span>
                           </span>
@@ -391,6 +395,165 @@ export const Feature00DataSource = {
               className: 'l3tw7oesyb9-editor_css',
             },
           ],
+        },
+      },
+    ],
+    href: 'https://wiki.tiangong.earth',
+    target: '_blank',
+  },
+};
+export const Content50DataSource = {
+  wrapper: { className: 'home-page-wrapper content5-wrapper' },
+  page: { className: 'home-page content5' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      { name: 'title', children: '客户案例', className: 'title-h1' },
+      {
+        name: 'content',
+        className: 'title-content',
+        children: '在这里用一段话介绍服务的案例情况',
+      },
+    ],
+  },
+  block: {
+    className: 'content5-img-wrapper',
+    gutter: 16,
+    children: [
+      {
+        name: 'block0',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: {
+            className: 'content5-block-content',
+            href: 'https://wiki.tiangong.earth',
+            target: '_blank',
+          },
+          img: {
+            children:
+              'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%9B%BE%E6%A0%871-%E6%95%B0%E6%8D%AE%E5%BA%93.svg',
+            className: 'l4f86lod4af-editor_css',
+          },
+          content: {
+            children: (
+              <span>
+                <p>数据库</p>
+              </span>
+            ),
+            className: 'l4f7z2olfm-editor_css',
+          },
+        },
+      },
+      {
+        name: 'block1',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%9B%BE%E6%A0%871-%E5%A4%A9%E5%B7%A5LCA.svg',
+            className: 'l4f86wxye1-editor_css',
+          },
+          content: {
+            children: (
+              <span>
+                <p>
+                  <span>生命周期评价工具</span>
+                  <br />
+                </p>
+              </span>
+            ),
+            className: 'l4f823wkbh-editor_css',
+          },
+        },
+      },
+      {
+        name: 'block2',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+          },
+          content: { children: 'Ant Design' },
+        },
+      },
+      {
+        name: 'block3',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+          },
+          content: { children: 'Ant Motion' },
+        },
+      },
+      {
+        name: 'block4',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+          },
+          content: { children: 'Ant Design' },
+        },
+      },
+      {
+        name: 'block5',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+          },
+          content: { children: 'Ant Motion' },
+        },
+      },
+      {
+        name: 'block6',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+          },
+          content: { children: 'Ant Design' },
+        },
+      },
+      {
+        name: 'block7',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+          },
+          content: { children: 'Ant Motion' },
         },
       },
     ],

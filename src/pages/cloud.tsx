@@ -1,7 +1,7 @@
-import Page2 from '../Page2';
+import Cloud from '../Cloud';
 
 export default function () {
   return (
-    <Page2 />
+    <Cloud />
   );
 }

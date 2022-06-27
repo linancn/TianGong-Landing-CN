@@ -102,7 +102,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%9B%BE%E6%A0%871-%E5%A4%A9%E5%B7%A5LCA.svg',
+              '/LCA',
             className: 'l4s8nufa6tj-editor_css',
           },
           content: {

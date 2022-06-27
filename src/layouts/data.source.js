@@ -3,7 +3,7 @@ export const Nav34DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
-    className: 'header3-logo l4s9b8dzo2n-editor_css',
+    className: 'header3-logo',
     children:
       'https://tian-gong-initiative-open.oss-cn-shenzhen.aliyuncs.com/image/%E5%A4%A9%E5%B7%A5%E8%AE%A1%E5%88%92-%E4%B8%AD%E6%96%87%E7%B4%AB%E8%89%B2%E6%A8%AA%E7%89%88.svg',
   },
@@ -11,7 +11,7 @@ export const Nav34DataSource = {
     className: 'header3-menu',
     children: [
       {
-        name: 'item~l4w3wzcrbj',
+        name: 'item1',
         className: 'header3-item',
         children: {
           href: '/',
@@ -19,13 +19,7 @@ export const Nav34DataSource = {
             {
               children: (
                 <span>
-                  <span>
-                    <span>
-                      <span>
-                        <p>主页</p>
-                      </span>
-                    </span>
-                  </span>
+                  <p>主页</p>
                 </span>
               ),
               name: 'text',
@@ -35,14 +29,17 @@ export const Nav34DataSource = {
       },
       {
         name: 'item0',
-        className: 'header3-item',
+        className: 'header3-item l4wfdmqju16-editor_css',
         children: {
           href: '#',
           children: [
             {
               children: (
                 <span>
-                  <p>下载</p>
+                  <p>
+                    <span>下载</span>
+                    <br />
+                  </p>
                 </span>
               ),
               name: 'text',
@@ -67,20 +64,12 @@ export const Nav34DataSource = {
                   className: 'item-title',
                   children: (
                     <span>
-                      <span>
-                        <p>
-                          <a
-                            href="https://wiki.tiangong.earth/"
-                            target="_blank"
-                          >
-                            数据库
-                          </a>
-                        </p>
-                      </span>
+                      <p>LCA数据库</p>
                     </span>
                   ),
                 },
               ],
+              href: '/database',
             },
           },
           {
@@ -101,38 +90,30 @@ export const Nav34DataSource = {
                   children: (
                     <span>
                       <span>
-                        <p>
-                          <a
-                            href="https://software.tiangong.earth/"
-                            target="_blank"
-                          >
-                            生命周期评价工具
-                          </a>
-                        </p>
+                        <p>LCA评价工具</p>
                       </span>
                     </span>
                   ),
                 },
               ],
+              href: '/LCA',
             },
           },
         ],
       },
       {
-        name: 'item1',
+        name: 'item3',
         className: 'header3-item',
         children: {
-          href: '/page2',
+          href: '#',
           children: [
             {
               children: (
                 <span>
                   <span>
-                    <span>
-                      <p>
-                        <a href="/page2">English</a>
-                      </p>
-                    </span>
+                    <p>
+                      <a href="https://tiangong.earth/">English</a>
+                    </p>
                   </span>
                 </span>
               ),
